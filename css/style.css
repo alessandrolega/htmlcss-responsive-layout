@@ -122,7 +122,7 @@ ul li{
     padding-bottom: 50px;
 }
 
-.section2-cont{
+.section2-cont, .section4-cont{
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -269,6 +269,62 @@ ul li{
 .card-name{
     font-size: 25px;
     font-weight: bold;
+}
+
+.section4{
+    background-color: #9792E4;
+    padding-bottom: 80px;
+}
+
+.title-cont4{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.title-cont4 > h2{
+    font-size: 43px;
+}
+
+.card-white{
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 50px;
+
+}
+
+.number-cont > h2{
+    font-size: 50px;
+    color: #9792E4;
+}
+
+.number-cont > h3{
+    font-size: 30px;
+    color: #9792E4;
+    padding-top: 30px;
+}
+
+.p-card-cont > p{
+    font-size: 24px;
+    line-height: 40px;
+    color: grey;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.btn-more-cont{
+    margin-top: 30px;
+}
+
+.more-btn{
+    background-color: #9792E4;
+    border: none;
+    width: 40%;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 20px;
 }
 
 
