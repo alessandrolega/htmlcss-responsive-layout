@@ -94,7 +94,7 @@ ul li{
 }
 
 .img-cont > img{
-    width: 100%;
+    width: 80%;
     display: block;
 }
 
@@ -392,6 +392,21 @@ ul li{
         font-size: 19px;
     }
 
-   
+    .section4-cont{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .card-white{
+        flex-basis: 45%;
+    }
+
+    .p-card-cont >p{
+        font-size: 16px;
+    }
+
 }
 
