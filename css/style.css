@@ -1,6 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* UTILITY */
+
+.flex{
+    display: flex;
+}
+
+.f-space-between{
+    justify-content: space-between;
+}
+
+.f-center{
+    justify-content: center;
+}
+
+.f-align-center{
+    align-items: center;
+}
+
+header{
+    background-color: #0084FD;
+    padding: 20px;
+}
+
+.fa-bars{
+    color: white;
+}
+
+ul li{
+    margin-right: 20px;
+    list-style: none;
+    color: white;
+}
+
+.start-btn{
+    border: none;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.list-cont{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* QUERY */
+
+@media screen and (min-width: 768px) {
+    .icon-burger-cont{
+        display: none;
+    }
+
+    .list-cont{
+        display: block;
+    }
+}
