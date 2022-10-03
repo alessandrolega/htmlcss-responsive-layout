@@ -28,6 +28,10 @@ html{
     align-items: center;
 }
 
+.f-column{
+    flex-direction: column;
+}
+
 header{
     background-color: #0084FD;
     padding: 20px;
@@ -52,6 +56,66 @@ ul li{
 .list-cont{
     display: none;
 }
+
+.section-container{
+    border-radius: 25px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-1{
+    background-color: #B5DDFF;
+    color: #1990FD;
+    padding: 30px 20px 0 30px;
+    border-radius: 20px;
+}
+
+.p-box{
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    color: grey;
+    font-weight: bold;
+}
+
+.apple-btn{
+    background-color: #0084FD;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    width: 70%;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.img-cont > img{
+    width: 100%;
+    display: block;
+}
+
+.box-center{
+    margin-top: 30px;
+    background-color: #B5DDFF;
+    color: #1990FD;
+    padding: 30px 30px 0 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.box-center > h2{
+    padding-top: 30px;
+}
+
+.box-center > p{
+    font-size: 21px;
+    padding-bottom: 30px;
+}
+
 
 
 
@@ -84,11 +148,20 @@ ul li{
 /* QUERY */
 
 @media screen and (min-width: 768px) {
-    .icon-burger-cont{
-        display: none;
+
+
+    .section-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
-    .list-cont{
-        display: block;
+    .box-1{
+        flex-basis: 80%;
     }
+
+    .box-center{
+        flex-basis: 20%;
+    }
+
 }
