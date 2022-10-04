@@ -349,6 +349,7 @@ ul li{
 
 .longp-cont1, .longp-cont2 > p{
     line-height: 40px;
+    color: black;
 }
 
 .img-circle-cont-about{
@@ -365,7 +366,7 @@ ul li{
 
 .icon-about-cont{
     position: absolute;
-    right: 15px;
+    left: 145px;
     top: 0;
 }
 
@@ -479,8 +480,21 @@ ul li{
         font-size: 16px;
     }
 
-    .section5{
+    .section5-cont{
         display: flex;
+        justify-content: space-between;
+    }
+
+    .title-cont2-about{
+        flex-basis: 50%;
+    }
+
+    .img-circle-cont-about{
+        flex-basis: 40%;
+    }
+
+    .linkedin-btn{
+        width: 80%;
     }
 
 }
