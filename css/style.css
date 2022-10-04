@@ -610,9 +610,36 @@ footer{
 
     .box-1{
         display: flex;
+        flex-basis: 61%;
     }
 
     .img-cont > img{
         width: 100%;
     }
+
+    .section2-cont{
+        flex-direction: row;
+    }
+
+    .section-img{
+        flex-basis: 45%;
+    }
+
+    .flex-desktop2{
+        flex-basis: 40%;
+        margin-top: 75px;
+    }
+    
+    .img-cont2 > img{
+        width: 50%;
+    }
+
+    .section-img > img{
+        width: 70%;
+    }
+
+    .title-cont4 > h2{
+        font-size: 50px;
+    }
+
 }
