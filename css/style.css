@@ -37,6 +37,11 @@ header{
     padding: 20px;
 }
 
+.navbar{
+    width: 90%;
+    margin: 0 auto;
+}
+
 .fa-bars{
     color: white;
 }
@@ -76,7 +81,6 @@ ul li{
 
 .p-box{
     padding-top: 20px;
-    font-size: 20px;
     line-height: 30px;
     color: grey;
     font-weight: bold;
@@ -112,7 +116,6 @@ ul li{
 }
 
 .box-center > p{
-    font-size: 21px;
     padding-bottom: 30px;
 }
 
@@ -144,8 +147,6 @@ ul li{
 }
 
 .text-cont > h2{
-    font-size: 45px;
-
 }
 
 .white-cont{
@@ -162,7 +163,6 @@ ul li{
 .p-white-cont > p{
     color: white;
     line-height: 30px;
-    font-size: 22px;
 }
 
 .img-cont2{
@@ -178,7 +178,6 @@ ul li{
 
 
 .text-2-cont > p{
-    font-size: 26px;
     line-height: 40px;
     padding-top: 20px;
 }
@@ -208,7 +207,6 @@ ul li{
 }
 
 .testimonials{
-    font-size: 20px;
 }
 
 .span-cont{
@@ -218,7 +216,6 @@ ul li{
 
 .text-cont3 > h2{
     color: #9792E4;
-    font-size: 41px;
 }
 
 .p-cont-2{
@@ -226,7 +223,6 @@ ul li{
 }
 
 .p-cont-2 > p{
-    font-size: 28px;
     line-height: 40px;
 }
 
@@ -245,8 +241,8 @@ ul li{
 }
 
 .cardimg{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin: auto;
     border-radius: 50%;
     object-fit: cover;
@@ -258,7 +254,6 @@ ul li{
 }
 
 .p-card > p{
-    font-size: 29px;
     line-height: 40px;
 }
 
@@ -267,7 +262,6 @@ ul li{
 }
 
 .card-name{
-    font-size: 25px;
     font-weight: bold;
 }
 
@@ -283,7 +277,6 @@ ul li{
 }
 
 .title-cont4 > h2{
-    font-size: 43px;
 }
 
 .card-white{
@@ -306,7 +299,6 @@ ul li{
 }
 
 .p-card-cont > p{
-    font-size: 24px;
     line-height: 40px;
     color: grey;
     font-weight: bold;
@@ -327,6 +319,77 @@ ul li{
     border-radius: 20px;
 }
 
+.section5-cont{
+    width: 90%;
+    margin: 0 auto;
+    /*display: flex;
+    flex-direction: column;*/
+}
+
+.title-cont2-about{
+    margin-top: 50px;
+    color: #9792E4;
+}
+
+.title-cont2-about > h2{
+    font-size: 30px;
+}
+
+.title-cont4 > h2{
+    font-size: 38px;
+}
+
+.section5{
+    padding-bottom: 80px;
+}
+
+.longp-cont1, .longp-cont2{ 
+    margin-top: 30px;
+}
+
+.longp-cont1, .longp-cont2 > p{
+    line-height: 40px;
+}
+
+.img-circle-cont-about{
+    margin-top: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+.icon-about-cont{
+    color: #9792E4;
+    
+    
+}
+
+.icon-about-cont{
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+
+.title-about-cont{
+    margin-top: 30px;
+    color: #9792E4;
+}
+
+.title-about-cont > h2{
+    line-height: 40px;
+}
+
+.linkedin-btn-cont{
+    margin-top: 30px;
+}
+
+.linkedin-btn{
+    width: 40%;
+    border: none;
+    background-color: #9792E4;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+}
 
 
 
@@ -382,15 +445,23 @@ ul li{
     .card{
         display: flex;
         flex-direction: row;
+        align-items: center;
     }
 
     .p-card > p{
         font-size: 22px;
+        text-align: left;
     }
 
     .p-cont-2 > p{
         font-size: 19px;
     }
+
+    .card-name-cont{
+        text-align: left;
+    }
+
+    
 
     .section4-cont{
         display: flex;
@@ -406,6 +477,10 @@ ul li{
 
     .p-card-cont >p{
         font-size: 16px;
+    }
+
+    .section5{
+        display: flex;
     }
 
 }
