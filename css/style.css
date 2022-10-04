@@ -511,7 +511,7 @@ footer{
     .section-container{
         flex-direction: row;
         flex-wrap: wrap;
-        width: 100%;
+        width: 90%;
         gap: 15px;
     }
 
@@ -593,3 +593,26 @@ footer{
     .text-cont > h2{
         font-size: 40px;
     }
+
+@media screen and (min-width: 1024px) {
+    
+    .icon-burger-cont{
+        display: none;
+    }
+
+    .list-cont{
+        display: block;
+    }
+
+    .section-container{
+        width: 90%;
+    }
+
+    .box-1{
+        display: flex;
+    }
+
+    .img-cont > img{
+        width: 100%;
+    }
+}
