@@ -384,7 +384,7 @@ ul li{
 }
 
 .linkedin-btn{
-    width: 40%;
+    width: 45%;
     border: none;
     background-color: #9792E4;
     border-radius: 50px;
@@ -501,6 +501,8 @@ footer{
 
 
 
+
+
 /* QUERY */
 
 @media screen and (min-width: 768px) {
@@ -576,5 +578,18 @@ footer{
         width: 80%;
     }
 
-}
+    .btn-big-start{
+        width: 40%;
+    }
 
+    .text-cont3 > h2{
+        font-size: 35px;
+    }
+
+    .title-simply-cont > h3{
+        font-size: 40px;
+    }
+
+    .text-cont > h2{
+        font-size: 40px;
+    }
